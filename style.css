@@ -9,7 +9,7 @@
 }
 
 #trybewarts-header-title {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   color: white;
 }
 
@@ -22,7 +22,7 @@ main {
 }
 
 #trybewarts-form-title {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
 #evaluation-form {
@@ -35,9 +35,13 @@ main {
   height: 500px;
 }
 
-#Familia {
+#familia {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+}
+
+#checkboxes {
+  display: flex;
 }
 
 #stacks {
@@ -45,7 +49,7 @@ main {
   flex-direction: column;
 }
 
-#Conteudos {
+#conteudos {
   display: flex;
   justify-content: space-between;
 }
