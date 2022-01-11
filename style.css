@@ -39,3 +39,12 @@ main {
   display: flex;
   flex-direction: column;  
 }
+
+#stacks {
+  display: flex;
+  flex-direction: column;
+}
+
+#teste {
+  align-self: auto;
+}

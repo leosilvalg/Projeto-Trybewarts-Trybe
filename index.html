@@ -34,7 +34,19 @@
         </select>
       </div>
       <div id="conteudos">
-          <label id="label-content">Qual conteúdo você está com mais vontade de aprender?
+        <div id="stacks">
+            <label id="label-family" for="">Qual sua família?</label>
+            <div>
+              <input type="radio" name="family" value="Frontend" id="front"><label for="front">Frontend</label>
+            </div>
+            <div>
+              <input type="radio" name="family" value="Backend" id="back"><label for="back">Backend</label>
+            </div>
+            <div>
+              <input type="radio" name="family" value="FullStack" id="full"><label for="full">FullStack</label>
+            </div>
+          </div>   
+        <label id="label-content">Qual conteúdo você está com mais vontade de aprender?
               <div>
               <input type="checkbox" name="HoFs" value="HoFs">HoFs
               <input type="checkbox" name="Jest" value="Jest">Jest
@@ -44,7 +56,7 @@
               <input type="checkbox" name="Python" value="Python">Python
               </div>
           </label>
-      </div>
+      <hr> 
     </form>
     <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="Imagens lateral ao formulário">
   </main>
