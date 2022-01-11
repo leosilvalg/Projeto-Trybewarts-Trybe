@@ -35,7 +35,7 @@ main {
   height: 500px;
 }
 
-#conteudos {
+#Familia {
   display: flex;
   flex-direction: column;  
 }
@@ -45,6 +45,7 @@ main {
   flex-direction: column;
 }
 
-#teste {
-  align-self: auto;
+#Conteudos {
+  display: flex;
+  justify-content: space-between;
 }
