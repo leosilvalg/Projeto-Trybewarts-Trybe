@@ -34,3 +34,12 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#stacks {
+  display: flex;
+  flex-direction: column;
+}
+
+#teste {
+  align-self: auto;
+}
