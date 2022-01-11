@@ -21,6 +21,10 @@ main {
   display: flex;
 }
 
+#trybewarts-form-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+
 #evaluation-form {
   display: flex;
   width: 675px;

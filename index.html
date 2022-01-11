@@ -19,13 +19,19 @@
   </header>
   <main>
     <form id="evaluation-form" action="get">
+        <h1 id="trybewarts-form-title">Formulário de Avaliação</h1>
       <div id="nomes">
         <input id="input-name" placeholder="Nome" type="text">
         <input id="input-lastname" placeholder="Sobrenome" type="text">
       </div>
       <div>
         <input id="input-email" placeholder="Email" type="email">
-
+        <select name="house" id="house">
+            <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
       </div>
     </form>
     <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" alt="Imagens lateral ao formulário">
