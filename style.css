@@ -5,7 +5,12 @@
 }
 
 .trybewarts-header-logo {
-    width: 50px;
+  width: 50px;
+}
+
+#trybewarts-header-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
 }
 
 .trybewarts-login {
