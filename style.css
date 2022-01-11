@@ -37,7 +37,11 @@ main {
 
 #conteudos {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+}
+
+#checkboxes {
+  display: flex;
 }
 
 #stacks {
