@@ -18,11 +18,11 @@
     </form>
   </header>
   <main>
-    <form id="evaluation-form" action="get">
+    <form id="evaluation-form" action="" method="get">
         <h1 id="trybewarts-form-title">Formulário de Avaliação</h1>
       <div id="nomes">
-        <input id="input-name" placeholder="Nome" type="text">
-        <input id="input-lastname" placeholder="Sobrenome" type="text">
+        <input name="Nome" id="input-name" required placeholder="Nome" type="text" value="">
+        <input name="Sobrenome" id="input-lastname" required placeholder="Sobrenome" type="text" value="">
       </div>
       <div>
         <input id="input-email" placeholder="Email" type="email">
@@ -51,12 +51,12 @@
         <div>
           <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
           <div>
-            <input type="checkbox" name="content" value="HoFs">HoFs
-            <input type="checkbox" name="content" value="Jest">Jest
-            <input type="checkbox" name="content" value="Promises">Promises
-            <input type="checkbox" name="content" value="React">React
-            <input type="checkbox" name="content" value="SQL">SQL
-            <input type="checkbox" name="content" value="Python">Python
+            <input class="subject" type="checkbox" name="content" value="HoFs">HoFs
+            <input class="subject" type="checkbox" name="content" value="Jest">Jest
+            <input class="subject" type="checkbox" name="content" value="Promises">Promises
+            <input class="subject" type="checkbox" name="content" value="React">React
+            <input class="subject" type="checkbox" name="content" value="SQL">SQL
+            <input class="subject" type="checkbox" name="content" value="Python">Python
           </div>
         </div>
       </div>
