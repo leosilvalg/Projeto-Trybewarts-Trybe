@@ -11,7 +11,7 @@
 
 ---
 
-**Nota**: /ESCREVAM SUA NOTA AQUI/
+**Nota**: 9
 
 ---
 
@@ -19,11 +19,11 @@
 
 ---
 
-**Observações**: /ESCREVAM SUAS OBSERVAÇÕES AQUI/
+**Observações**: Acredito que o enunciado da questão 21 poderia ser mais claro. Achei a frase "Todos os campos do formulário devem ser substituídos pelas informações da pessoa usuária" um pouco vaga.
 
 ---
 
-**Pessoas integrantes da dupla**: /ESCREVAM SEUS NOMES AQUI/
+**Pessoas integrantes da dupla**: Leonardo Gonçalves da Silva e Vitor Pacheco
 
 ---
 
