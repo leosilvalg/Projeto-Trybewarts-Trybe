@@ -60,6 +60,13 @@ main {
   resize: none;
 }
 
+#caracteres {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 footer {
   background-color: rgb(50, 167, 145);
   text-align: center;

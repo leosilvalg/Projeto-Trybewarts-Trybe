@@ -3,6 +3,8 @@ const senha = document.getElementById('senha');
 const botao = document.getElementById('botao');
 const botaoSubmit = document.querySelector('#submit-btn');
 const agreement = document.querySelector('#agreement');
+const texto = document.querySelector('#textarea');
+const numeroChar = document.querySelector('#counter');
 
 // Login do Header
 botao.addEventListener('click', () => {
@@ -21,3 +23,12 @@ agreement.addEventListener('click', (e) => {
   if (e.target.checked) botaoSubmit.disabled = false;
   else botaoSubmit.disabled = true;
 });
+
+// Bonus 20. Contador.
+function contador() {
+  // Eu retirei a ideia de subtrair o valor máximo pela entrada de caracteres desta fonte : https://stackoverflow.com/questions/14086546/textarea-character-count-using-javascript
+  const maximo = 500;
+  const digitados = texto.value.length;
+  numeroChar.innerHTML = maximo - digitados;
+}
+texto.addEventListener('input', contador);
