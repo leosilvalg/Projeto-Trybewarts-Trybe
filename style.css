@@ -43,6 +43,7 @@ main {
 
 #trybewarts-form-title {
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  text-align: center;
 }
 
 #evaluation-form {
@@ -53,6 +54,13 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+  margin: auto 0;
+}
+
+.nomeEmail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 #familia {
@@ -90,7 +98,7 @@ main {
 footer {
   background-color: rgb(50, 167, 145);
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   position: fixed;
   width: 100%;
   bottom: 0;

@@ -23,13 +23,14 @@
   <main>
     <form id="evaluation-form" action="" method="get">
         <h1 id="trybewarts-form-title">Formulário de Avaliação</h1>
-      <div id="nomes">
-        <input name="Nome" id="input-name" required placeholder="Nome" type="text" value="">
-        <input name="Sobrenome" id="input-lastname" required placeholder="Sobrenome" type="text" value="">
+      <div class="nomeEmail">
+        <input class="form-control" name="Nome" id="input-name" required placeholder="Nome" type="text" value="">
+        <input class="form-control" name="Sobrenome" id="input-lastname" required placeholder="Sobrenome" type="text" value="">
       </div>
-      <div>
-        <input id="input-email" placeholder="Email" type="email">
-        <select name="house" id="house">
+      <div class="nomeEmail">
+        <input class="form-control" id="input-email" placeholder="Email" type="email">
+        <select class="form-control" name="house" id="house">
+            <option selected value="">Selecione uma casa</option>
             <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
             <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
             <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
