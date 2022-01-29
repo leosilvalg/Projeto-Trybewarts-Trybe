@@ -36,11 +36,11 @@
   align-items: center;
 }
 
-main {
+/* main {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
-}
+} */
 
 #trybewarts-form-title {
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;

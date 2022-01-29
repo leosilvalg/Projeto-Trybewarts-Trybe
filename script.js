@@ -9,7 +9,6 @@ const SOBRENOME = document.getElementById('input-lastname');
 const EMAIL_FORMS = document.querySelector('#input-email');
 const CASAS_FORMS = document.querySelector('#house');
 
-// Login do Header
 BOTAO_LOGIN.addEventListener('click', () => {
   const EMAIL_HEADER = document.getElementById('email');
   const SENHA_HEADER = document.getElementById('senha');
@@ -20,25 +19,19 @@ BOTAO_LOGIN.addEventListener('click', () => {
   }
 });
 
-// Habilitando o botão de agreement
-// No carregamento da página, defino o botão como estando desabilitado
+
 BOTAO_FORMULARIO.disabled = true;
 AGREEMENT.addEventListener('click', (e) => {
-  // Se o checkbox for marcado, eu habilito, do contrario, continua desabilitado.
   if (e.target.checked) BOTAO_FORMULARIO.disabled = false;
   else BOTAO_FORMULARIO.disabled = true;
 });
 
-// Bonus 20. Contador.
 function contador() {
-  // Eu retirei a ideia de subtrair o valor máximo pela entrada de caracteres desta fonte : https://stackoverflow.com/questions/14086546/textarea-character-count-using-javascript
   const CARACTERES_MAXIMO = 500;
   const CARACTERES_DIGITADOS = CAIXA_TEXTO.value.length;
   CONTADOR_LETRAS.innerHTML = CARACTERES_MAXIMO - CARACTERES_DIGITADOS;
 }
 CAIXA_TEXTO.addEventListener('input', contador);
-
-// Bonus 21
 
 const NOVA_DIV = document.createElement('div');
 
