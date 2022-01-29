@@ -20,40 +20,49 @@
       </div>
     </form>
   </header>
-  <main class="container d-flex justify-content-around">
+  <main class="container d-flex justify-content-around flex-wrap-reverse">
     <form id="evaluation-form" action="" method="get">
         <h1 id="trybewarts-form-title">Formulário de Avaliação</h1>
-      <div class="nomeEmail">
-        <input class="form-control" name="Nome" id="input-name" required placeholder="Nome" type="text" value="">
-        <input class="form-control" name="Sobrenome" id="input-lastname" required placeholder="Sobrenome" type="text" value="">
+      <div class="row g-3 mb-3">
+        <div class="col">
+          <input class="form-control" name="Nome" id="input-name" required placeholder="Nome" type="text" value="">
+        </div>
+        <div class="col">
+          <input class="form-control" name="Sobrenome" id="input-lastname" required placeholder="Sobrenome" type="text" value="">
+        </div>
       </div>
-      <div class="nomeEmail">
-        <input class="form-control" id="input-email" placeholder="Email" type="email">
-        <select class="form-control" name="house" id="house">
-            <option selected value="">Selecione uma casa</option>
-            <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
-            <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-            <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
-            <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
+      <div class="row g-3 mb-3">
+        <div class="col">
+          <input class="form-control" id="input-email" placeholder="Email" type="email">
+        </div>
+        <div class="col">
+          <select class="form-control" name="house" id="house">
+              <option selected value="">Selecione uma casa</option>
+              <option text="Gitnória" value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option text="Reactpuff" value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option text="Corvinode" value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option text="Pytherina" value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </div>
       </div>
       <hr>
-      <div id="conteudos">
-        <div id="familia">
-          <div id="stacks">
-              <label id="label-family" for="">Qual sua família?</label>
-              <div>
-                <input type="radio" name="family" value="Frontend" id="front"><label for="front">Frontend</label>
-              </div>
-              <div>
-                <input type="radio" name="family" value="Backend" id="back"><label for="back">Backend</label>
-              </div>
-              <div>
-                <input type="radio" name="family" value="FullStack" id="full"><label for="full">FullStack</label>
-              </div>
+      <div class="row g-3 mb-3">
+        <div class="col">
+          <label id="label-family" for="">Qual sua família?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="family" value="Frontend" id="front">
+            <label class="form-check-label" for="front">Frontend</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="family" value="Backend" id="back">
+            <label class="form-check-label" for="back">Backend</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="family" value="FullStack" id="full">
+            <label class="form-check-label" for="full">FullStack</label>
           </div>
         </div>
-        <div>
+        <div class="col">
           <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
           <div>
             <input class="subject" type="checkbox" name="content" value="HoFs">HoFs

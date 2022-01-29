@@ -59,11 +59,11 @@
   margin: auto 0;
 }
 
-.nomeEmail {
+/* .nomeEmail {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
+} */
 
 #familia {
   display: flex;
