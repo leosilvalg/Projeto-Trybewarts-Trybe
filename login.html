@@ -10,7 +10,7 @@
 <body>
   <div class="main">
     <div class="left">
-      <h1>Efetue seu login!</h1>
+      <!-- <h1>Efetue seu login!</h1> -->
       <img class="imagem-login" src="./images/witch-animate.svg" alt="Animação de uma bruxa">
     </div>
     <div class="right">
@@ -18,16 +18,16 @@
         <h1>LOGIN</h1>
         <div class="textfield">
           <label for="usuario">Usuario</label>
-          <input type="text" placeholder="Usuario" name="usuario">
+          <input id="email" type="email" placeholder="Usuario" name="usuario">
         </div>
         <div class="textfield">
           <label for="senha">Senha</label>
-          <input type="password" placeholder="Senha" name="senha">
+          <input id="senha" type="password" placeholder="Senha" name="senha">
         </div>
-        <button class="btn-login">Login</button>
+        <button type="submit" class="btn-login">Login</button>
       </div>
     </div>
   </div>
-  <script src=""></script>  
+  <script src="loginScript.js"></script>  
 </body>
 </html>
