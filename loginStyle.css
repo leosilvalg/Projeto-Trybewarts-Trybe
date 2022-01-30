@@ -17,7 +17,7 @@ body {
 
 .left {
   width: 50vw;
-  width: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ body {
 
 .right {
   width: 50vw;
-  width: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
