@@ -3,10 +3,14 @@
   src: url('./fonts/MagicSchoolOne-ovYz.ttf') format('truetype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #f0ffffde;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .main {
@@ -15,12 +19,11 @@
   background-color: #201b2c;
   display: flex;
   justify-content: center;
-  flex-wrap: w;
   align-items: center;
 }
 
 .left {
-  width: 50vw;
+  width: 60vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -28,7 +31,7 @@
 }
 
 .evaluation-form {
-  width: 80%; /* Vw é o tamanho da viewport, a tela onde esta a página. A % pega o tamanho da div, nesse caso, a div onde esta o card. 60% e 50 vw */
+  width: 75%; /* Vw é o tamanho da viewport, a tela onde esta a página. A % pega o tamanho da div, nesse caso, a div onde esta o card. 60% e 50 vw */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -47,8 +50,8 @@
   margin: 0;
 }
 
-.evaluation-form > label {
-  color: #f0ffffde;
+.form-control > option {
+  color: #201b2c;
 }
 
 .btn-forms {
@@ -67,7 +70,7 @@
 }
 
 .right {
-  width: 50vw;
+  width: 40vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -82,11 +85,17 @@
   display: block;
   width: 100%;
   resize: none;
+  outline: none;
+  color: #201b2c;
 }
 
 #caracteres {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  /* align-items: center; */
   justify-content: flex-end;
+}
+
+#caracteres > label {
+  margin-right: 10px;
 }
