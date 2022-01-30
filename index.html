@@ -64,29 +64,45 @@
         </div>
         <div class="col">
           <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-          <div>
-            <input class="subject" type="checkbox" name="content" value="HoFs">HoFs
-            <input class="subject" type="checkbox" name="content" value="Jest">Jest
-            <input class="subject" type="checkbox" name="content" value="Promises">Promises
-            <input class="subject" type="checkbox" name="content" value="React">React
-            <input class="subject" type="checkbox" name="content" value="SQL">SQL
-            <input class="subject" type="checkbox" name="content" value="Python">Python
+          <div class="form-check form-check-inline"> 
+            <input class="form-check-input subject" type="checkbox" name="content" value="HoFs">HoFs
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input subject" type="checkbox" name="content" value="Jest">Jest
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input subject" type="checkbox" name="content" value="Promises">Promises
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input subject" type="checkbox" name="content" value="React">React
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input subject" type="checkbox" name="content" value="SQL">SQL
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input subject" type="checkbox" name="content" value="Python">Python
           </div>
         </div>
       </div>
-      <div id="avaliacao">
-        <label id="label-rate">Como você avalia a Trybewarts?</label>
-        <input type="radio" name="rate" value="1">1
-        <input type="radio" name="rate" value="2">2
-        <input type="radio" name="rate" value="3">3
-        <input type="radio" name="rate" value="4">4
-        <input type="radio" name="rate" value="5">5
-        <input type="radio" name="rate" value="6">6
-        <input type="radio" name="rate" value="7">7
-        <input type="radio" name="rate" value="8">8
-        <input type="radio" name="rate" value="9">9
-        <input type="radio" name="rate" value="10">10
-      </div>
+      <div class="row" id="avaliacao">
+        <div class="col">
+          <label id="label-rate">Como você avalia a Trybewarts?</label>         
+        </div>
+        <div class="col">
+          <div class="d-flex justify-content-between">
+            <input class="form-check-input" type="radio" name="rate" value="1">1
+            <input class="form-check-input" type="radio" name="rate" value="2">2
+            <input class="form-check-input" type="radio" name="rate" value="3">3
+            <input class="form-check-input" type="radio" name="rate" value="4">4
+            <input class="form-check-input" type="radio" name="rate" value="5">5
+            <input class="form-check-input" type="radio" name="rate" value="6">6
+            <input class="form-check-input" type="radio" name="rate" value="7">7
+            <input class="form-check-input" type="radio" name="rate" value="8">8
+            <input class="form-check-input" type="radio" name="rate" value="9">9
+            <input class="form-check-input" type="radio" name="rate" value="10">10
+          </div>
+        </div>
+        </div>
       <hr>
       <label class="textarea" for="">Deixe seu comentário: 
         <textarea name="" id="textarea" maxlength="500" cols="30" rows="8"></textarea>

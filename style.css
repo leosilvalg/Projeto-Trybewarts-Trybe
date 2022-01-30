@@ -65,24 +65,24 @@
   justify-content: space-between;
 } */
 
-#familia {
+/* #familia {
   display: flex;
   flex-direction: column;
-}
+} */
 
-#checkboxes {
+/* #checkboxes {
   display: flex;
 }
 
 #stacks {
   display: flex;
   flex-direction: column;
-}
+} */
 
-#conteudos {
+/* #conteudos {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 #textarea {
   display: block;
