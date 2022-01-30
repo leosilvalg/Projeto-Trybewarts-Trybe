@@ -3,22 +3,11 @@ const BOTAO_FORMULARIO = document.querySelector('#submit-btn');
 const AGREEMENT = document.querySelector('#agreement');
 const CAIXA_TEXTO = document.querySelector('#textarea');
 const CONTADOR_LETRAS = document.querySelector('#counter');
-const FORMULARIO = document.querySelector('#evaluation-form');
+const FORMULARIO = document.querySelector('.evaluation-form');
 const PRIMEIRO_NOME = document.getElementById('input-name');
 const SOBRENOME = document.getElementById('input-lastname');
 const EMAIL_FORMS = document.querySelector('#input-email');
 const CASAS_FORMS = document.querySelector('#house');
-
-BOTAO_LOGIN.addEventListener('click', () => {
-  const EMAIL_HEADER = document.getElementById('email');
-  const SENHA_HEADER = document.getElementById('senha');
-  if (EMAIL_HEADER.value === 'tryber@teste.com' && SENHA_HEADER.value === '123456') {
-    window.alert('Olá, Tryber!');
-  } else {
-    window.alert('Email ou senha inválidos.');
-  }
-});
-
 
 BOTAO_FORMULARIO.disabled = true;
 AGREEMENT.addEventListener('click', (e) => {
@@ -93,7 +82,7 @@ function enviar(e) {
   conteudo();
   avalicao();
   text();
-  FORMULARIO.innerHTML = '';
+  FORMULARIO.innerHTML = ''
   FORMULARIO.appendChild(NOVA_DIV);
 }
 BOTAO_FORMULARIO.addEventListener('click', enviar);

@@ -47,14 +47,28 @@
   font-family: 'harry';
   color: #00ff88;
   font-weight: 500;
-  margin: 0;
+  margin-bottom: 15px;
 }
 
 .form-control > option {
   color: #201b2c;
 }
 
-.btn-forms {
+.btn-forms:disabled {
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #2b134b;
+  background: white;
+  opacity: 0.5;
+}
+
+.btn-forms:enabled {
   width: 100%;
   padding: 10px 0px;
   border: none;
