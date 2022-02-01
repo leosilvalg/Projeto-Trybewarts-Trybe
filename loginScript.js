@@ -4,7 +4,7 @@ const LOGIN = () => {
   const EMAIL_HEADER = document.getElementById('email');
   const SENHA_HEADER = document.getElementById('senha');
   if (EMAIL_HEADER.value === 'tryber@teste.com' && SENHA_HEADER.value === '123456') {
-    window.open('./index.html', '_self');
+    window.open('./Formulario/index.html', '_self');
   } else {
     alert('Email ou senha inválidos.');
   }
